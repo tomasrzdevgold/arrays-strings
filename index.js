@@ -38,13 +38,13 @@ const comidas = ["cachapa", "cochino frito", "parilla", "arepa", "hamburguesa"]
 
 console.log(comidas)
 
-console.log("essas são as minhas comidas preferidas",
-"cachapa",
-"cochino frito",
-"parilla",
-"arepa",
-"hamburguesa"
-)
+console.log(`essas são as minhas comidas preferidas
+${comidas[0]} 
+${comidas[1]}
+${comidas[2]} 
+${comidas[3]}
+${comidas[4]} 
+`)
 
 const comidaUsuario = prompt("qual é a sua comida favorita")
 comidas.splice(1,1,comidaUsuario)
